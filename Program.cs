@@ -16,7 +16,7 @@ while (tentativas < maxTentativas)
     if (usuario == "admin" && senha == "1234")
     {
         Console.WriteLine("Login bem-sucedido!");
-        break;
+        break; // usado para sair do loop caso o login seja bem-sucedido
     }
     else
     {
